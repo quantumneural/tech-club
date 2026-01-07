@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>MUN-Soc</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #841ce8;
+      color: #f4f4f4;
+      scroll-behavior: smooth;
+      opacity: 0;
+      animation: fadeIn 1.2s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* Header */
+    .mheader {
+      background-color: #FFD700;
+      border-bottom: 3px solid #d4af37;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 1rem 2rem;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .mheader img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      border: 3px solid #000;
+    }
+
+    .mheader h1 {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 2rem;
+      color: #000;
+      margin: 0;
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+      color: #FFD700;
+      font-size: 1.8rem;
+      margin-top: 2rem;
+      letter-spacing: 0.05em;
+    }
+
+    /* Intro paragraph */
+    .intro {
+      max-width: 900px;
+      margin: 1.5rem auto;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      text-align: center;
+      color: #f9f9f9;
+      padding: 0 20px;
+    }
+
+    /* Mentors Section */
+    .mentors {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem 1rem;
+    }
+
+    .mentor {
+      background-color: rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      padding: 2rem 1rem;
+      width: 280px;
+      text-align: center;
+      border: 2px solid #FFD700;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .mentor img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 3px solid #FFD700;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    .mentor h2 {
+      font-size: 1.2rem;
+      color: #FFD700;
+      margin-bottom: 0.5rem;
+    }
+
+    .mentor p {
+      font-size: 0.95rem;
+      color: #f5f5f5;
+      line-height: 1.4;
+    }
+
+    /* Footer */
+    .credts {
+      background-color: #1e1e1e;
+      text-align: center;
+      padding: 1rem;
+      border-top: 2px solid #30363D;
+      margin-top: 4rem;
+    }
+
+    .credts p {
+      font-size: 0.8rem;
+      color: #fff;
+      margin: 0.3rem 0;
+    }
+
+    .credts .dev {
+      color: #FFD700;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    .credts .dev:hover {
+      color: #de5d83;
+      text-decoration: underline;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .mentor {
+        width: 90%;
+      }
+
+      .mheader {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .mheader img {
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="mheader">
+    <a href="https://schoolofindia.com" target="_blank">
+      <img src="soi-logo.png" alt="School of India Logo">
+    </a>
+    <h1>MUN Society</h1>
+  </header>
+
+  <h2>Greetings Everyone,</h2>
+
+  <p class="intro">
+    The Model United Nations Society is a platform for students to step into the shoes of global leaders,
+    diplomats, and changemakers. Through debate, negotiation, and collaboration, members explore pressing
+    international issues while developing skills in public speaking, critical thinking, and diplomacy.
+    Whether you are an experienced debater or a curious beginner, MUN offers an opportunity to engage with
+    diverse perspectives and expand your worldview.
+  </p>
+
+  <div class="mentors">
+    <div class="mentor">
+      <img src="Udbhavv.jpg" alt="Udbhav Alam">
+      <h2>Udbhav Alam – President</h2>
+      <p>Dear Members,
+
+"Courage is what it takes to stand up and speak; courage is also what it takes to sit down and listen." – Winston Churchill
+<br>
+I’m Udbhav, and I have the privilege of serving as the President of the MUN Society. Having chaired and represented in numerous MUNs, I’ve witnessed the power of debate, diplomacy, and dialogue firsthand. From the chaos of AIPPM to the precision of the UNSC, each experience has reinforced my belief that real change begins with meaningful discussion.
+<br>
+For me, MUNs are not just simulations—they’re spaces where ideas take shape, leaders emerge, and perspectives evolve. As President, my aim is to make this society a place where curiosity thrives, opinions are respected, and every voice finds its weight in the room.
+<br>
+When I’m not in committee, you’ll probably find me experimenting in the kitchen, scripting in Python, or dissecting world affairs over a late-night espresso. I believe diplomacy should be dynamic, bold, and driven by passion—and that’s exactly what I hope our MUN Society will embody.
+<br>
+Warm regards,<br>
+Udbhav Alam<br>
+President, MUN Society</p>
+    </div>
+
+    <div class="mentor">
+      <img src="nafisaa.jpeg" style="object-position: top;" alt="Nafisa">
+      <h2>Nafisa – Vice President</h2>
+      <p>Hey,
+<br>
+I'm Nafisa of class 9, and it's such a great opportunity for me to be able to introduce myself as the very first Vice President of the MUN Club here at School of India; and being part of this community has been a very fresh and exciting experience added to my school life. Over the course of just five conferences in one year, I’ve learned far more than just speaking or debating—I’ve learned how to listen, understand different perspectives, research responsibly, and work with people who think completely differently from me. I’ve been fortunate to receive awards like Best Delegate, Commendation, and Special Mention, but I see them more as reminders of how much I’ve grown rather than achievements on their own.
+<br>
+As VP, my goal is to make our club a space where everyone—especially newer delegates—feels supported and encouraged, not intimidated. I want to help people find the confidence to raise their placards, speak even when they’re nervous, and enjoy the process of preparing for committee. Whether it’s guiding research, running practice debates, or just being someone others can come to for help, I hope to contribute to a club culture that values growth, teamwork, and curiosity over competition.
+<br>
+For me, MUN isn’t about how loud you speak or how much you know going in—it’s about how much you learn along the way. And I’m grateful I get to help others discover that too.
+<br>
+I'll be here to guide you through it all with my wonderful team.
+<br>
+Regards,<br>
+Nafisa</p>
+    </div>
+
+    <div class="mentor">
+      <h2>Gianna – Secretary</h2>
+      <p>Hi, I’m Gianna, and I proudly serve as the Secretary of the MUN Society. I’m a confident speaker and an even more confident organiser, whether it’s during heated debate or while coordinating everything behind the scenes for our society. Put me in a room full of delegates and I will make sure every voice is heard, every point is noted, and every session runs smoothly.
+​
+
+For me, MUN is the perfect place to combine clear communication with sharp organisation. I enjoy leading discussions, managing documents, and stepping up whenever something important needs to get done. As Secretary, my goal is to keep our team focused, prepared, and ready to perform at its best in every conference and commit</p>
+    </div>
+
+    <div class="mentor">
+      <h2>Mitali – Treasurer</h2>
+      <p>Hey, I’m Mitali, and I’m the Treasurer of the MUN Society. My role may sound like it’s all about money, but honestly, it’s more of a trust and responsibility position than anything else. I didn’t take this up because I’m obsessed with funds; I took it up because I’m organised, dependable, and good at keeping track of things that matter to the club.</p>
+    </div>
+  </div>
+
+  <footer class="credts">
+    <p>
+      Developed by
+      <span onclick="window.open('https://github.com/QuantumNeural')" class="dev">Divyansh</span>
+      and
+      <span class="dev" onclick="window.open('https://github.com/Hamprogrammer', '_blank')">Hamiz</span>
+    </p>
+    <p>Blueprinted by Vaibhavi and Dhruv</p>
+    <p>&copy; 2025 School Of India, Tech Club</p>
+  </footer>
+</body>
+</html> 
+
+
+
